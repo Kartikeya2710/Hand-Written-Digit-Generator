@@ -4,7 +4,7 @@
 
 import streamlit as st
 import tensorflow as tf
-from tensorflow import keras
+from tensorflow.keras.models import load_model
 import numpy as np
 # import matplotlib.pyplot as plt
 
@@ -40,7 +40,7 @@ def main():
         st.write('')
 
     with col2:
-        pretrained_model = keras.models.load_model("Saved Model")
+        pretrained_model = load_model("Saved Model")
         cen_button = st.button("Create")
 
         
