@@ -1,9 +1,9 @@
 """
 @author: KartikeyaSharma
 """
-import tensorflow as tf
+
 import streamlit as st
-from tensorflow import keras
+import keras
 import numpy as np
 # import matplotlib.pyplot as plt
 
