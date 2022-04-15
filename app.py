@@ -3,7 +3,6 @@
 """
 
 import streamlit as st
-import tensorflow as tf
 from tensorflow.keras.models import load_model
 import numpy as np
 # import matplotlib.pyplot as plt
