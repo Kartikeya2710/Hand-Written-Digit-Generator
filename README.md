@@ -4,11 +4,9 @@
 ## Hand-Written Digit Generator
 This model uses custom-built Generator and Discriminator for producing hand-written digits in real time. 
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="D:/Streamlit/working_website.webm" type="video/webm">
-  </video>
-</figure>
+<video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+<source src="D:/Streamlit/working_website.webm" type="video/webm">
+</video>
 
 ## Stats
 1. This model has been trained over the MNIST Dataset
