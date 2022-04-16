@@ -2,8 +2,9 @@
 @author: KartikeyaSharma
 """
 
-import streamlit as st
 import tensorflow as tf
+import streamlit as st
+from tensorflow.keras.models import load_model
 import numpy as np
 # import matplotlib.pyplot as plt
 
@@ -39,7 +40,7 @@ def main():
         st.write('')
 
     with col2:
-        pretrained_model = tf.keras.models.load_model("generator.h5")
+        pretrained_model = load_model("generator.h5")
         cen_button = st.button("Create")
 
         
@@ -66,4 +67,5 @@ def main():
             elif no_button:
                 no_button_click()
 
-main()
+if __name__ == "__main__":
+    main()
