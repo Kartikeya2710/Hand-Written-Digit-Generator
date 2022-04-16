@@ -39,7 +39,7 @@ def main():
         st.write('')
 
     with col2:
-        pretrained_model = load_model("Saved Model")
+        pretrained_model = load_model("generator.h5")
         cen_button = st.button("Create")
 
         
