@@ -3,7 +3,7 @@
 """
 
 import streamlit as st
-from tensorflow.keras.models import load_model
+import tensorflow as tf
 import numpy as np
 # import matplotlib.pyplot as plt
 
@@ -39,7 +39,7 @@ def main():
         st.write('')
 
     with col2:
-        pretrained_model = load_model("generator.h5")
+        pretrained_model = tf.keras.models.load_model("generator.h5")
         cen_button = st.button("Create")
 
         
