@@ -1,6 +1,8 @@
 # Deployed Model 
 [Hand-Written-Digit-Generator](https://hand-written-digit-generator.herokuapp.com/)
 
+<img src="streamlit_video.gif" width="640" height="360"/>
+
 ## Hand-Written Digit Generator
 This model uses custom-built Generator and Discriminator for producing hand-written digits in real time. 
 
