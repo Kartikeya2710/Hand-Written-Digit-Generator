@@ -1,5 +1,6 @@
-# Deployed Model 
-[Hand-Written-Digit-Generator](https://hand-written-digit-generator.herokuapp.com/)
+# Deployed Model
+
+[Hand-Written-Digit-Generator](https://hand-written-digit-generator.herokuapp.com/) (A little slow to load because of Heroku limitations)
 
 <img src="streamlit_video.gif" width="640" height="360"/>
 
