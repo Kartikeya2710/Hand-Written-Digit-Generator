@@ -9,7 +9,7 @@ import numpy as np
 # import matplotlib.pyplot as plt
 
 if "button_clicked" not in st.session_state:    
-    st.session_state.button_clicked = False
+    st.session_state['button_clicked'] = False
     
 
 def generate_images_from_pretrained_model(model):
