@@ -1,7 +1,3 @@
-# Deployed Model
-
-[Hand-Written-Digit-Generator](https://hand-written-digit-generator.herokuapp.com/) (A little slow to load because of Heroku limitations)
-
 <img src="GAN_Deployed.gif" width="640" height="360"/>
 
 ## Hand-Written Digit Generator
